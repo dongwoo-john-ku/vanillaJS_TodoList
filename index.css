@@ -1,0 +1,49 @@
+body{
+  background-color: #7f8c8d;
+  min-height: 100%;
+  overflow: hidden;
+  background: #fff;
+  text-shadow: 0 1px 5px rgba(0,0,0,.1);
+
+  color: white;
+  text-align: center;
+
+}
+
+.clicked {
+  color: #1f2c8d;
+  }
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage{
+  position : absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+
+h1{
+
+  font-size: 150px;
+}
